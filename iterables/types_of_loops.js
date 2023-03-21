@@ -82,7 +82,7 @@ const square_num = (n) => {
     return n**2;
 }
 
-// For each loop with mapping function
+// For each loop with function
 function for_each_combo_1(nums) {
     let sum = 0;
     nums.forEach((n) => {
@@ -92,7 +92,7 @@ function for_each_combo_1(nums) {
 }
 
 
-// For each loop with mapping function
+// For each loop with function and logging
 function for_each_combo_2(nums) {
     let sum = 0;
     nums.forEach((ele, idx) => {
